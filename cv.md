@@ -18,60 +18,14 @@ I am studying at MGLU in the fifth year. I work as an Arabic translator for an I
 
 # **Code examples:**
 
-```<!DOCTYPE html>
-<html lang="en">
- <head>
-   <meta charset="UTF-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="css/style.css" />
-   <title>Man</title>
- </head>
- <body>
-   <div class="content">
-     <div class="content-top">
-       <div class="content-top__cathegory">Travel</div>
-       <div class="content-top__title">
-         Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.
-       </div>
-     </div>
-     <div class="content-center">
-       <div class="content-center_image">
-         <img src="/img/light_man_copy_26.png" alt="Man" />
-       </div>
-     </div>
-     <div class="content-bottom">
-       <div class="content-bottom__text">
-         <p>
-           Donec aredsed odio dui. Morbi leo risus, porta ac consectetur ac,
-           vestibulum at eros. Morbi leo risus, porta ac consectetur ac,
-           vestibulum at eros. Donec ullamcorper nulla non metus auctor
-           fringilla.
-         </p>
-         <p>
-           Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-           vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-           venenatis vestibulum.
-         </p>
-       </div>
-     </div>
-     <div class="content-bottom-info">
-       <ul class="content-bottom-info__list">
-         <li>Put on this page information about your product</li>
-         <li>A detailed description of your product</li>
-         <li>Tell us about the advantages and merits</li>
-         <li>Associate the page with the payment system</li>
-       </ul>
-       <a
-         href="https://www.instagram.com/moon.pressence/"
-         class="content-bottom-info__link"
-         target="_blank"
-         ><span>Full story</span></a
-       >
-     </div>
-   </div>
- </body>
-</html>
+```
+def merge(dic1,dic2):
+    dic3=dic1.copy()
+    dic3.update(dic2)
+    return dic3
+dic1={1:"hello", 2:"world"}
+dic2={3:"Python", 4:"Programming"}
+merge(dic1,dic2) # {1: 'hello', 2: 'world', 3: 'Python', 4: 'Programming'}
 ```
 
 # **Education:**
