@@ -18,7 +18,7 @@ I am studying at MGLU in the fifth year. I work as an Arabic translator for an I
 
 # **Code examples:**
 
-```<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -72,7 +72,7 @@ I am studying at MGLU in the fifth year. I work as an Arabic translator for an I
     </div>
   </body>
 </html>
-```
+-->
 
 # **Education:**
 
